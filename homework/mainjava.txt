@@ -1,0 +1,12 @@
+public class main
+{
+	public static void main (String[] args)
+	{
+		person Imani = new Person("Imani", 22, "4132217834", "1677 Longmont Dr");
+		System.out.println("The person's name is " + print.getName() +". They are 
+		" + print.setAge() + "and their phone number is " + print.getNumber() + 
+		". They live at " + print.getAddress () + ". ";
+		Imani.growsOlder();
+		System.out.println ("Their new age is " + personAge);
+	}
+}
