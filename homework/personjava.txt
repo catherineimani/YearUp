@@ -1,0 +1,43 @@
+public class Person
+{
+	private String m_name;
+	private int m_age;
+	private String m_phone;
+	private String m_address;
+
+	Person Imani = new Person();
+	{
+		String personName = m_name;
+		int personAge = m_age;
+		String phoneNumber = m_phone;
+		String personAddress = m_address;
+	}
+	
+	public void setName()
+	{
+		String m_name = personName;
+	}
+	public int getAge(int m_age)
+	{
+		return personAge;
+	}
+	public void setPhone ()
+	{
+		String m_phone = phoneNumber;
+	}
+	public void setAddress ()
+	{
+		String m_address = personAddress;
+	}
+	
+	public int GrowsOlder(int personAge)
+	{
+		personAge = personAge + 1;
+	}
+}
+
+
+
+
+
+
